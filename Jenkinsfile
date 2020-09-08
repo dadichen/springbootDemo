@@ -14,7 +14,7 @@ pipeline {
         }
         stage('release project') {
             steps {
-                bat label: '', script: 'java -jar C:\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Jenkins.jenkins\\workspace\\test\\target\\demo-0.0.1-SNAPSHOT.jar'
+                bat label: '', script: 'java -jar C:\\Windows\\System32\\config\\systemprofile\\AppData\\Local\\Jenkins.jenkins\\workspace\\test\\target\\springbootDemo.jar'
             }
         }
     }
